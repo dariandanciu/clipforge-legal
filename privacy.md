@@ -4,20 +4,22 @@ title: ClipForge Privacy Policy
 
 # ClipForge: Privacy Policy
 
-*Last updated: November 7, 2026*
+*Last updated: November 10, 2026*
 
 ClipForge is a personal video-editing tool made and used by one person, Darian Danciu, for the GospelFuel channels that Darian owns (YouTube, the GospelFuel Facebook Page, the @gospelfuelclips Instagram account and the owner's TikTok accounts). It runs only on the owner's own Windows PC and is not offered to anyone else. There are no other users and no accounts; this page is its only public web presence.
 
 ## What ClipForge uses YouTube API Services for
 
 - **Uploading** short vertical videos (YouTube Shorts) that the owner edited in ClipForge to the owner's own channel (`youtube.upload` scope).
-- **Reading the channel's name and picture** once at sign-in, so the app shows which channel is connected (`youtube.readonly` scope).
+- **Reading the owner's own channel** (`youtube.readonly` scope): the channel's name and picture at sign-in, so the app shows which channel is connected, and the channel's recent uploads (title, link, publish time, privacy status and view count) after posting, so the app can confirm each Short went live and flag uploads that are missing or failed.
 
-It does not read, collect or analyse anyone else's channels, videos, comments or personal data.
+It does not edit, delete or comment on videos, and it does not read, collect or analyse anyone else's channels, videos, comments or personal data.
+
+ClipForge's use and transfer of information received from Google APIs adheres to the [Google API Services User Data Policy](https://developers.google.com/terms/api-services-user-data-policy), including the Limited Use requirements.
 
 ## What data is stored, and where
 
-- The Google OAuth access and refresh tokens for the owner's channel, and the channel's ID, name and picture URL.
+- The Google OAuth access and refresh tokens for the owner's channel, the channel's ID, name and picture URL, and the list of the channel's recent uploads described above.
 - They are stored in one file on the owner's own PC. They are never sent to any server other than Google's own APIs, and never shared, sold or used for advertising.
 - The videos and their titles and descriptions are the owner's own content.
 
